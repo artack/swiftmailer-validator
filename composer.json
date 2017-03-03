@@ -1,0 +1,16 @@
+{
+    "name": "artack/swiftmailer-validator",
+    "description": "Validator for Email which is using the same validation swiftmailer is using",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/validator": "^2.8",
+        "swiftmailer/swiftmailer": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artack\\Component\\Validator\\Constraint\\": "src/"
+        }
+    }
+}
