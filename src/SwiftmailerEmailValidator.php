@@ -12,6 +12,10 @@ class SwiftmailerEmailValidator extends ConstraintValidator
 {
     public function validate($value, Constraint $constraint)
     {
+        if (null === $value || '' === $value) {
+            return;
+        }
+
         $this->grammer = new \Swift_Mime_Grammar();
 
         if (!$this->isValid($value)) {
