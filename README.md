@@ -1,3 +1,5 @@
+> **ATTENTION:** This repository is archived and therefore readonly.
+
 # swiftmailer-validator
 swiftmailer validator to be used in symfony
 
